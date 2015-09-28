@@ -1,0 +1,40 @@
+    .content-box1 {
+        width: 500px;
+        margin: 0 auto;
+        border: 5px solid black;
+        position: relative;
+        padding: 10px;
+    }
+    
+    .content-box2 {
+        width: 500px;
+        margin: 0 auto;
+        border: 5px solid black;
+        padding: 30px;
+        position: relative;
+        top: -20px;
+        left: -100px;
+    }
+    
+    .content-box3 {
+        width: 500px;
+        margin: 0 auto;
+        border: 5px solid black;
+        padding: 10px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .content-box4 {
+        width: 500px;
+        margin: 0 auto;
+        border: 5px solid black;
+        padding: 10px;
+    }
+    
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
