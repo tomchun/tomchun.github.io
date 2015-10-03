@@ -1,0 +1,112 @@
+.nav {
+    background-color: #182b45;
+    padding: 30px;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    padding: 14px 10px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav #pl {
+    font-size: 20px;
+}
+
+.nav #pr {
+    font-size: 15px;
+}
+
+.jumbotron {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #4dc47d;
+}
+
+.jumbotron .container {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.jumbotron h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 20px;
+}
+
+.jumbotron a {
+    color: white;
+}
+
+.portfolio {
+    color: #263f6a;
+    padding: 100px;
+}
+
+.portfolio h1 {
+    color: #263f6a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about {
+    background-color: #ff8a00;
+}
+
+#bt {
+    text-align: center;
+}
+
+.about>.container {
+    padding: 100px;
+    color: white;
+}
+
+.about h2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#p-range {
+    margin-left: 160px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.contact>.container {
+    padding: 60px;
+    color: #182b45;
+}
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .form-control {
+    font-size: 25px;
+    padding: 30px;
+    margin: 15px;
+}
