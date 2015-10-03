@@ -1,3 +1,13 @@
-.footer {
-    height: 350px;
-}
+    .footer {
+        height: 350px;
+    }
+    
+    #jumbo1 {
+        background-image: url(seagulls-sunset2.jpg);
+        color: white;
+    }
+    
+    .jumbotron {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
