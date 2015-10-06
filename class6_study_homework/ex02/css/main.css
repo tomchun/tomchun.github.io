@@ -1,0 +1,113 @@
+    .nav {
+        background-color: #062f3c
+    }
+    
+    .nav .container {
+        padding-top: 28px;
+        padding-bottom: 10px;
+    }
+    
+    .nav li {
+        display: inline;
+    }
+    
+    .nav .container .pull-left li a {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .nav .container .pull-right li {
+        padding-left: 15px;
+    }
+    
+    .nav .container .pull-right li a {
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .jumbotron {
+        margin: auto 0;
+        height: 600px;
+        background-color: #49a942;
+    }
+    
+    .jumbotron .container {
+        position: relative;
+        text-align: center;
+    }
+    
+    .jumbotron .col-md-12 {
+        padding-top: 30px;
+    }
+    
+    .jumbotron h1 {
+        color: white;
+        font-size: 72px;
+        font-weight: bold;
+    }
+    
+    .jumbotron p {
+        color: white;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    
+    .jumbotron a {
+        color: white;
+    }
+    
+    .PORTFOLIO .container {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .PORTFOLIO .container h1 {
+        padding: 15px;
+        color: #004b79;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .about .container-fluid {
+        background-color: #4dc47d;
+        padding-top: 75px;
+        height: 450px;
+    }
+    
+    .about h1 {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .about p {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .about #about-btn {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .CONTACT .container-fluid h1 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        color: #004b79;
+        font-weight: bold;
+    }
+    
+    .CONTACT input {
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .CONTACT textarea {
+        font-size: 20px;
+        padding: 10px;
+    }
