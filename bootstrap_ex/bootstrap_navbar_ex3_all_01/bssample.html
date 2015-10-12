@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="container">
+            <ul class="pull-left">
+                <li><a href="#">Name</a></li>
+                <!-- dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#Page2">Browse<spin class="caret"></spin></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="tabs_ex.html">example_tabs</a></li>
+                        <li><a href="bootstrap_navbar_ex2_scrollspy/index.html">example_navbar_scrollbar</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="pull-right">
+                <li><a href="#jumbo" class="jumbo_a">Sign Up</a></li>
+                <li><a href="#neighborhood" class="neighborhood_a">Log In</a></li>
+                <li><a href="#learn" class="learn_a">Help</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="jumbotron" id="jumbo">
+        <div class="container">
+            <h1>Find a place to stay.</h1>
+            <p>Rent from people in over 34,000 cities and 192 countries.</p>
+            <div class="dropdown">
+                <a href="#" class="btn btn-primary dropdown-toggle trigger-dropdown" data-toggle="dropdown">Learn More</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">test</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="neighborhood-guides" id="neighborhood">
+        <div class="container">
+            <h2>Neighborhood Guides</h2>
+            <p>
+                Not sure where to stay? We've created neighborhood guides for cities all around the world.
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/0sX3jq">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/an2HXY">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/Av1pac">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/vw43v1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://goo.gl/0Kd7UO">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="learn-more" id="learn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Travel</h3>
+                    <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+                    <p><a href="#">See how to travel on Airbnb</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Host</h3>
+                    <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+                    <p><a href="#">Learn more about hosting</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Trust and Safety</h3>
+                    <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+                    <p><a href="#">Learn about trust at Airbnb</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
