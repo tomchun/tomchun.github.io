@@ -1,0 +1,172 @@
+.nav {
+    background: #f7e8d5;
+}
+
+.nav a {
+    color: #000;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    font-family: 'Comic Sans MS';
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    margin: 5px 20px 5px 0px;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav img {
+    margin: 0px 8px;
+}
+
+.nav .pull-right span {
+    margin-right: 3px;
+}
+
+
+/*set logo font*/
+
+.nav li:hover {
+    color: #fff;
+    background: #fff;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.jumbotron {
+    background-image: url(../images/005_副本.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: round 15s linear infinite;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 210px;
+}
+
+.jumbotron h1 {
+    color: #000;
+    font-size: 45px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    color: #000;
+}
+
+.about_breakfast-guides {
+    padding-top: 80px;
+}
+
+.about_breakfast-guides h2 {
+    color: #000;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.about_breakfast-guides p {
+    color: #000;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    font-family: 'Shift', sans-serif;
+    margin: 20px 0px;
+}
+
+.btn {
+    width: 100px;
+    background: #fabd42;
+}
+
+.Category {
+    padding-top: 60px;
+}
+
+.Category h2 {
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.content_footer {
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
+}
+
+.contact .form-control {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact h2 {
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.content_footer {
+    background-color: #f7e8d5;
+}
+
+.content_footer a {
+    color: #00b0ff;
+}
+
+@keyframes round {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        background-image: url(../images/005_副本.jpg);
+    }
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        background-image: url(../images/005_副本.jpg);
+    }
+    40% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        background-image: url(../images/005_副本.jpg);
+        /* 1- 5秒靜止*/
+    }
+    44% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        background-image: url(../images/Bread_006002_副本.jpg);
+        /* 1- 5秒靜止*/
+    }
+    48% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        background-image: url(../images/Bread_006002_副本.jpg);
+    }
+    88% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        background-image: url(../images/Bread_006002_副本.jpg);
+    }
+    100% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        background-image: url(../images/Bread_006002_副本.jpg);
+    }
+}

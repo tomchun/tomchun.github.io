@@ -1,0 +1,29 @@
+body {
+    position: relative;
+}
+
+#Home {
+    padding-top: 50px;
+    height: 500px;
+}
+
+#content1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#content2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#content3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ff9800;
+}
