@@ -6,7 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
-    <meta name="keywords" content="scrollto,jquery" />
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -16,30 +17,32 @@
     <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
     <!-- jquery 平滑滾動效果animate -->
     <script type="text/javascript">
-    $(function() {
-        $('.home').click(function() {
-            $('html,body').animate({
-                scrollTop: '0px'
-            }, 1500);
-        });
+    $(document).ready(
+        function() {
+            $('.home').click(function() {
+                $('html,body').animate({
+                    scrollTop: '0px'
+                }, 1500);
+            });
 
-        $('.about_breakfast_c').click(function() {
-            $('html,body').animate({
-                scrollTop: $('#about_breakfast').offset().top
-            }, 1800);
-        });
+            $('.about_breakfast_c').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#about_breakfast').offset().top
+                }, 1800);
+            });
 
-        $('.category_c').click(function() {
-            $('html,body').animate({
-                scrollTop: $('#category').offset().top
-            }, 2100);
-        });
-        $('.Contact_c').click(function() {
-            $('html,body').animate({
-                scrollTop: $('#Contact').offset().top
-            }, 2400);
-        });
-    });
+            $('.category_c').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#category').offset().top
+                }, 2100);
+            });
+            $('.Contact_c').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#Contact').offset().top
+                }, 2400);
+            });
+        }
+    );
     </script>
 </head>
 
@@ -56,7 +59,7 @@
                 </button>
                 <!-- logo -->
                 <a href="#" class="navbar-brand">
-                    <img src="images/sub_image/logo2.png" height="48" width="68" alt="Logo">
+                    <!-- <img src="images/sub_image/logo2.png" height="48" width="68" alt="Logo"> -->
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -127,17 +130,19 @@
             <div class="row ">
                 <div class="col-md-4">
                     <!-- Protein pic -->
-                    <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="thumbnail
+ wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.3s">
                         <img src="images/sub_image/蛋白質早餐.jpg " height="369 " width="550 " alt=" ">
-                        <div class="caption01 ">
+                        <div class="Protein">
                             <h3>Protein</h3>
                             <p>When you start the day with a carb-heavy breakfast, the morning can sometimes drag, causing you to reach for that second cup of coffee. Try cutting down on carbs, and reach for one of these high-protein breakfast recipes instead. Whether you're on a gluten-free, Paleo, or vegetarian diet, there's a breakfast idea here to help you start your day energized and satisfied.</p>
+                            <a href="index.html">test....</a>
                         </div>
                     </div>
                     <!-- Vegetable pic -->
                     <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.3s">
                         <img src="images/sub_image/hero_pdt_garden_salad.png " height="132 " width="284 " alt=" ">
-                        <div class="caption01 ">
+                        <div class="Vegetable">
                             <h3>Vegetable</h3>
                             <p> “When it’s time for carbs, think veggies first”. Vegetables are THE superior form of carbohydrates. No matter what. We do need other forms of carbs but the vegetables are the most nourishing source.</p>
                         </div>
@@ -147,7 +152,7 @@
                     <!-- fruit pic -->
                     <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.7s">
                         <img src="images/sub_image/fresh_fruit_breakfast.jpg " height="189 " width="284 " alt=" ">
-                        <div class="fruit ">
+                        <div class="fruit">
                             <h3>Fresh fruit</h3>
                             <p>A healthy fresh fruit salad with strawberries, blueberries and nectarines is a delicious summer breakfast.</p>
                             <p>Mangos, grapes, kiwis, oranges, bananas. Fresh and frozen fruit are perfect packages of energy. Fruit has enzymes and amino acids that work with our bodies to help recognize and absorb nutrients.</p>
@@ -156,7 +161,7 @@
                     <!-- Cereal pic -->
                     <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.7s">
                         <img src="images/sub_image/Honey-Nut-Breakfast-Cereal.jpg " height="189 " width="284 " alt=" ">
-                        <div class="Cereal ">
+                        <div class="Cereal">
                             <h3>Cereal</h3>
                             <p>Many kiddie cereals aren't ideal in terms of fibre and whole grain content but they are inexpensive, high in starchy carbohydrate that fills up tummies, low in fat, fortified with four B vitamins and iron.</p>
                         </div>
@@ -166,7 +171,7 @@
                     <!-- Starch pic -->
                     <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.9s">
                         <img src="images/sub_image/Starch.jpg " height="213 " width="284 " alt=" ">
-                        <div class="Starch ">
+                        <div class="Starch">
                             <h3>Starch</h3>
                             <p>A healthy fresh fruit salad with strawberries, blueberries and nectarines is a delicious summer breakfast.</p>
                         </div>
@@ -174,7 +179,7 @@
                     <!-- drinks pic -->
                     <div class="thumbnail wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.9s">
                         <img src="images/sub_image/breakfast_coffee_milk_juice.jpg " height="160 " width="284 " alt=" ">
-                        <div class="drinks ">
+                        <div class="drinks">
                             <h3>Breakfast drinks</h3>
                             <p>With breakfast drinks, nothing more than milk, soy milk, coffee, juice ... if we did not spend any thoughts, but these are suitable for breakfast drink? With drinks should be rich in calcium and protein beverage of choice, reduce or sugary drinks with staple food, in order to avoid excessive intake of carbohydrates, which led to violence from nosedive postprandial glucose instability, influence thoughts and learning ability.</p>
                         </div>
@@ -187,7 +192,7 @@
     <div id="Contact" class="contact">
         <div class="container ">
             <div class="row ">
-                <h2>Breakfast Health Advisory Content me</h2>
+                <h2>Breakfast Health Advisory Contact me</h2>
             </div>
             <div class="row ">
                 <div class="col-lg-4 col-xs-12 col-sm-12 ">
