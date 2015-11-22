@@ -1,0 +1,36 @@
+#jquery_ex {
+    margin: 10px;
+    /*font-weight: bold;*/
+    font-family: 'Comic Sans MS';
+}
+
+#jquery_ex ul {
+    width: 290px;
+    padding: 5px;
+    background-color: #077;
+    margin: 20px;
+}
+
+#jquery_ex li a {
+    font-size: 18px;
+    color: white;
+}
+
+#jquery_ex li a:hover {
+    color: yellow;
+}
+
+#jquery_ex h2 {
+    border: 3px solid #000;
+    width: 300px;
+    padding: 8px;
+}
+
+#jquery_ex li:hover {
+    margin-left: 10px;
+}
+
+#jquery_ex h2:hover {
+    background-color: #777;
+    margin-left: 20px;
+}

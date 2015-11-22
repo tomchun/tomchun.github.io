@@ -3,12 +3,16 @@
 }
 
 .nav a {
-    color: #000;
     font-size: 14px;
     /*font-weight: bold;*/
     font-family: 'Comic Sans MS';
     padding: 14px 10px;
     text-transform: uppercase;
+    color: #ee6123;
+}
+
+.logo_txt {
+    display: inline;
 }
 
 .nav ul {
@@ -46,11 +50,11 @@
 }
 
 .jumbotron {
-    background-image: url(../images/005_副本.jpg);
-    height: 600px;
+    background-image: url(../images/main_01.jpg);
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: round 15s linear infinite;
+    animation: round 30s linear infinite;
 }
 
 .jumbotron .container {
@@ -72,14 +76,14 @@
 }
 
 .about_breakfast-guides {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .about_breakfast-guides h2 {
     color: #000;
     font-family: 'Comic Sans MS';
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .about_breakfast-guides p {
@@ -102,9 +106,17 @@
 .Category h2 {
     font-family: 'Comic Sans MS';
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 80px;
     padding: 10px;
 }
+
+
+/*
+.Category .thumbnail:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+}
+*/
 
 .content_footer {
     margin: 10px;
@@ -131,42 +143,60 @@
     color: #00b0ff;
 }
 
+.Protein a {
+    /* 因為繼續閱讀是個超連結，要用a來定義 */
+    display: none;
+    /* 平常設定不要顯示 */
+}
+
+.thumbnail:hover .Protein a {
+    display: block;
+    /* 當滑鼠移至該篇文章時，設定以block顯示，可設定超連結以一個區塊顯示 */
+    width: 550px;
+    /* 設定長與寬 */
+    height: 369px;
+    /* 設定背景 */
+    position: absolute;
+    /* 將繼續閱讀的位置放置於文章左上角，top=0, left=0 */
+    
+    top: 0px;
+    left: 0px;
+
+    font-size: 0px;
+    /* 不要文字出現，因為設定背景來顯示 */
+}
+
+
 @keyframes round {
-    0% {
+    /*---------------------------------------------------*/
+    /*number one pic 11-12秒淡出*/
+    35% {
         opacity: 0;
         filter: alpha(opacity=0);
-        background-image: url(../images/005_副本.jpg);
+        background-image: url(../images/main_01.jpg);
     }
-    4% {
+    /*number two pic 11-12秒顯示*/
+    35% {
         opacity: 1;
         filter: alpha(opacity=100);
-        background-image: url(../images/005_副本.jpg);
+        background-image: url(../images/main_02.jpg);
     }
-    40% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        background-image: url(../images/005_副本.jpg);
-        /* 1- 5秒靜止*/
-    }
-    44% {
+    65% {
         opacity: 0;
         filter: alpha(opacity=0);
-        background-image: url(../images/Bread_006002_副本.jpg);
-        /* 1- 5秒靜止*/
+        background-image: url(../images/main_02.jpg);
     }
-    48% {
+    /*---------------------------------------------------*/
+    /*number three pic 21秒顯示*/
+    65% {
         opacity: 1;
         filter: alpha(opacity=100);
-        background-image: url(../images/Bread_006002_副本.jpg);
+        background-image: url(../images/main_03.jpg);
     }
-    88% {
+    /*number one pic 29秒顯示*/
+    95% {
         opacity: 1;
         filter: alpha(opacity=100);
-        background-image: url(../images/Bread_006002_副本.jpg);
-    }
-    100% {
-        opacity: 0;
-        filter: alpha(opacity=0);
-        background-image: url(../images/Bread_006002_副本.jpg);
+        background-image: url(../images/main_01.jpg);
     }
 }

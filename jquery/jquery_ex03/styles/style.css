@@ -1,0 +1,33 @@
+div {
+    float: left;
+    text-align: left;
+    height: 245px;
+    border: 3px solid #000;
+}
+
+#header {
+    width: 100%;
+    border: 0px;
+    height: 60px;
+}
+
+#main {
+    background-color: grey;
+    height: 500px;
+}
+
+.guess_box {
+    height: 245px;
+}
+
+.my_hover {
+    border: solid #00f 3px;
+}
+
+.discount {
+    border: solid #0f0 3px;
+}
+
+.no_discount {
+    border: solid #f00 3px;
+}

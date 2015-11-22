@@ -1,0 +1,33 @@
+#container {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.nav {
+    width: 150px;
+    height: 360px;
+    background-color: #33ffff;
+    padding: 10px;
+    float: left;
+}
+
+.section {
+    width: 600px;
+    height: 350px;
+    background-color: #CCFFFF;
+    padding: 15px;
+    float: left;
+}
+
+.footer {
+    background-color: yellow;
+    clear: both;
+}
